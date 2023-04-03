@@ -1,0 +1,149 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "icon": "smile-o",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 530,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 77,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "text1",
+              "isCanvas": false,
+              "displayName": "文本",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "text",
+                "label",
+                "文字",
+                "标题"
+              ],
+              "topRow": 10,
+              "bottomRow": 14,
+              "parentRowSpace": 10,
+              "type": "TARO_TEXT_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 24,
+              "dynamicBindingPathList": [],
+              "text": "hello world",
+              "isMobile": true,
+              "key": "qhz26y8138",
+              "isDeprecated": false,
+              "rightColumn": 40,
+              "textAlign": "LEFT",
+              "widgetId": "pe360ny8jy",
+              "isVisible": true,
+              "textColor": "#333",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "fontSize": "1rem"
+            },
+            {
+              "widgetName": "image1",
+              "isCanvas": false,
+              "displayName": "图片",
+              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+              "searchTags": [
+                "image",
+                "picture"
+              ],
+              "topRow": 19,
+              "bottomRow": 43,
+              "parentRowSpace": 10,
+              "type": "TARO_IMAGE_WIDGET",
+              "hideCard": false,
+              "mode": "aspectFit",
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 14,
+              "dynamicBindingPathList": [],
+              "isMobile": true,
+              "key": "5sps8ird6y",
+              "isDeprecated": false,
+              "rightColumn": 46,
+              "src": "https://img.yzcdn.cn/vant/cat.jpeg",
+              "widgetId": "itpscz2yqu",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "widgetName": "button1",
+              "onClick": "{{JSObject1.myFun2()}}",
+              "isCanvas": false,
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.4d1a6789769ffbdc0548128f48d340db.svg",
+              "searchTags": [
+                "button"
+              ],
+              "topRow": 49,
+              "bottomRow": 53,
+              "parentRowSpace": 10,
+              "showLoading": true,
+              "type": "TARO_BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 18,
+              "dynamicBindingPathList": [],
+              "text": "好的",
+              "isMobile": true,
+              "key": "jhgper16tu",
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "widgetId": "qm7ne3ie2z",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "rounded": true,
+              "fontSize": "16px"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "642287d4c699cc30f1c0825e_642287d4c699cc30f1c08260"
+}
